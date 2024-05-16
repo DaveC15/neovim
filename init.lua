@@ -72,6 +72,7 @@ require('lazy').setup({
   -- Git related plugins
   'tpope/vim-fugitive',
   'tpope/vim-rhubarb',
+
   -- markdown
   {
     "iamcco/markdown-preview.nvim",
@@ -259,6 +260,9 @@ require('lazy').setup({
     },
     build = ':TSUpdate',
   },
+
+  -- nvim-dap
+  'mfussenegger/nvim-dap',
 
   -- NOTE: Next Step on Your Neovim Journey: Add/Configure additional "plugins" for kickstart
   --       These are some example plugins that I've included in the kickstart repository.
